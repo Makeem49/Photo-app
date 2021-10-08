@@ -42,7 +42,7 @@ export default function App() {
             image : urlAdress
         }
 
-        setAlbum([...albums, addAlbum])
+        setAlbum([addAlbum,...albums])
         
         setName('');
         setUrlAdress('');
