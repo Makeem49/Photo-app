@@ -1,0 +1,49 @@
+.form-container {
+  position: relative;
+  width: 700px;
+  min-height: 200px;
+  background-color: grey;
+  margin: 0px auto;
+  margin-top: 30px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 30px white;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  display: block;
+  margin: 15px auto;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+#add {
+  min-width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+label p{
+  font-size: 1.2rem;
+}
+
+.button-p {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.button-p p {
+  text-align: center;
+
+}
